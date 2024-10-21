@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "name": "React",
+    "logo": "/skills/logo_dark.svg"
+  },
+  {
+    "id": 2,
+    "name": "TypeScript",
+    "logo": "/skills/ts-logo-256.svg"
+  },
+  {
+    "id": 3,
+    "name": "NextJS",
+    "logo": "/skills/nextjs_logo.png"
+  },
+  {
+    "id": 4,
+    "name": "Tantack query",
+    "logo": "skills/tanstackQuery_logo.png"
+  },
+  {
+    "id": 5,
+    "name": "TailwindCSS",
+    "logo": "/skills/tailwindCSS.png"
+  },
+  {
+    "id": 6,
+    "name": "Directus",
+    "logo": "/skills/directus.png"
+  },
+  {
+    "id": 7,
+    "name": "NextUI",
+    "logo": "/skills/nextui.png"
+  },
+  {
+    "id": 8,
+    "name": "Html",
+    "logo": "/skills/html.png"
+  },
+  {
+    "id": 9,
+    "name": "Css",
+    "logo": "/skills/css.png"
+  },
+  {
+    "id": 10,
+    "name": "NodeJS",
+    "logo": "/skills/node_logo.png"
+  },
+
+  {
+    "id": 11,
+    "name": "Fastify",
+    "logo": "/skills/fastify_logo.SVG"
+  },
+  {
+    "id": 12,
+    "name": "Prisma",
+    "logo": "/skills/Prisma_logo.SVG"
+  }
+]
