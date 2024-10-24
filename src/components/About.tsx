@@ -37,9 +37,14 @@ const About = () => {
             />
           </div>
         </div>
+        <div className="font-thin sm:w-[500px]">
+          Passionate in building highly interactive, beautiful Web application
+          that bring your idea to life and push your current business to the
+          next level.
+        </div>
 
         <div className="">
-          <Link href={""}>
+          <Link href={"https://github.com/RanjanaRK"}>
             <Github />
           </Link>
         </div>
@@ -47,8 +52,7 @@ const About = () => {
         <Button
           color="primary"
           radius="sm"
-          size="md"
-          className="hover:bg-white hover:text-blue-500">
+          size="md">
           <Link href={"mailto:ranjana252000@gmail.com"}>Hire Me</Link>
         </Button>
       </div>

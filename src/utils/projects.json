@@ -2,15 +2,15 @@
   {
     "id": 1,
     "name": "Weather-Forecast",
-    "description": "Weather-forecast a web aplication",
+    "description": "Weather-forecast a web aplication,this application build with NextJs, tailwindCSS, axios,",
     "screenshot": "/projects/weatherForecast.png",
     "respository_link": "https://github.com/RanjanaRK/weather-forecast.git"
   },
   {
     "id": 2,
-    "name": "a random Project",
-    "description": "using react jus ,next js , jotai ",
-    "screenshot": "/projects/weatherForecast.png",
+    "name": "Full stack TODO App",
+    "description": "A full-stack todo app built with nextjs, directus, nextui, tailwind, jotai",
+    "screenshot": "/projects/todo.png",
     "respository_link": "https://github.com/RanjanaRK/weather-forecast.git"
   },
   {

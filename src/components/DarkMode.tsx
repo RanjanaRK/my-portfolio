@@ -21,7 +21,7 @@ const DarkMode = () => {
           isIconOnly
           variant="light"
           onPress={() => setDarkMode(!darkMode)}>
-          {darkMode ? <MoonStar fill="gray" /> : <SunIcon fill="orange" />}
+          {darkMode ? <MoonStar fill="yellow" /> : <SunIcon fill="#0000ff" />}
         </Button>
       </div>
     </>

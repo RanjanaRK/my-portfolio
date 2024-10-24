@@ -1,62 +1,81 @@
 [
   {
     "id": 1,
-    "name": "React",
-    "logo": "/skills/logo_dark.svg"
-  },
-  {
-    "id": 2,
-    "name": "TypeScript",
-    "logo": "/skills/ts-logo-256.svg"
-  },
-  {
-    "id": 3,
-    "name": "NextJS",
-    "logo": "/skills/nextjs_logo.png"
-  },
-  {
-    "id": 4,
-    "name": "Tantack query",
-    "logo": "skills/tanstackQuery_logo.png"
-  },
-  {
-    "id": 5,
-    "name": "TailwindCSS",
-    "logo": "/skills/tailwindCSS.png"
-  },
-  {
-    "id": 6,
-    "name": "Directus",
-    "logo": "/skills/directus.png"
-  },
-  {
-    "id": 7,
-    "name": "NextUI",
-    "logo": "/skills/nextui.png"
-  },
-  {
-    "id": 8,
     "name": "Html",
     "logo": "/skills/html.png"
   },
   {
-    "id": 9,
+    "id": 2,
     "name": "Css",
     "logo": "/skills/css.png"
   },
   {
+    "id": 3,
+    "name": "Js",
+    "logo": "/skills/js.png"
+  },
+  {
+    "id": 4,
+    "name": "React",
+    "logo": "/skills/logo_dark.svg"
+  },
+  {
+    "id": 5,
+    "name": "NextJS",
+    "logo": "/skills/nextjs_logo.png"
+  },
+  {
+    "id": 6,
+    "name": "TypeScript",
+    "logo": "/skills/ts-logo-256.svg"
+  },
+  {
+    "id": 7,
+    "name": "TailwindCSS",
+    "logo": "/skills/tailwindCSS.png"
+  },
+  {
+    "id": 8,
+    "name": "NextUI",
+    "logo": "/skills/nextui.png"
+  },
+  {
+    "id": 9,
+    "name": "Axios",
+    "logo": "/skills/axios.svg"
+  },
+
+  {
     "id": 10,
+    "name": "Tantack query",
+    "logo": "skills/tanstackQuery_logo.png"
+  },
+
+  {
+    "id": 11,
+    "name": "Shadcn",
+    "logo": "/skills/shadcn.png"
+  },
+
+  {
+    "id": 12,
+    "name": "Directus",
+    "logo": "/skills/directus.png"
+  },
+
+  {
+    "id": 13,
     "name": "NodeJS",
     "logo": "/skills/node_logo.png"
   },
 
   {
-    "id": 11,
+    "id": 14,
     "name": "Fastify",
     "logo": "/skills/fastify_logo.SVG"
   },
   {
-    "id": 12,
+    "id": 15,
     "name": "Prisma",
     "logo": "/skills/Prisma_logo.SVG"
   }

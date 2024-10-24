@@ -11,16 +11,19 @@ import {
 import { SunDim } from "lucide-react";
 import Link from "next/link";
 import DarkMode from "./DarkMode";
+import { useAtom } from "jotai";
+import { darkAtom } from "@/utils/atoms/darkAtom";
 // import Darkmode from "./Darkmode";
 
 const Nav = () => {
+  const [darkMode, setDarkMode] = useAtom(darkAtom);
   return (
     <>
       <Navbar
         // height={"3rem"}
         isBordered={true}
         isBlurred
-        className="border backdrop-blur-md">
+        className={`sticky top-0 border shadow-lg backdrop-blur-md ${darkMode ? "shadow-white/10" : ""}`}>
         <NavbarBrand>
           <Link
             href={"/"}
@@ -71,6 +74,7 @@ const Nav = () => {
         <NavbarContent
           justify="end"
           className="sm:hidden">
+          <DarkMode />
           <NavbarMenuToggle />
         </NavbarContent>
 
@@ -84,23 +88,26 @@ const Nav = () => {
           </NavbarMenuItem>
           <NavbarMenuItem>
             <Link
-              href="#about"
-              aria-current="page">
+              color="foreground"
+              href="#skills"
+              className="hover:text-blue-500">
               Skill
             </Link>
           </NavbarMenuItem>
           <NavbarMenuItem>
             <Link
-              href="#about"
-              aria-current="page">
+              color="foreground"
+              href="#projects"
+              className="hover:text-blue-500">
               projects
             </Link>
           </NavbarMenuItem>
           <NavbarMenuItem>
             <Link
-              href="#about"
-              aria-current="page">
-              contact
+              color="foreground"
+              href="#contact"
+              className="hover:text-blue-500">
+              Contact
             </Link>
           </NavbarMenuItem>
         </NavbarMenu>

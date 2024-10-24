@@ -3,8 +3,12 @@ import projects from "../utils/projects.json";
 import Link from "next/link";
 import { ExternalLink, Share } from "lucide-react";
 import { Card, CardBody } from "@nextui-org/card";
+import { darkAtom } from "@/utils/atoms/darkAtom";
+import { useAtom } from "jotai";
 
 const Projects = () => {
+  const [darkMode, setDarkMode] = useAtom(darkAtom);
+
   return (
     <>
       <div
@@ -18,16 +22,17 @@ const Projects = () => {
           {projects.map((item) => (
             <Card
               isHoverable={true}
-              className="sm:w-[330px] md:w-[420px]"
+              className={`flex h-[450px] shadow-lg after:absolute after:z-[-1] after:transition after:!duration-500 hover:-translate-y-1 sm:w-[330px] md:w-[420px] ${darkMode ? "bg-white/10 shadow-white/10" : "bg-black/10"}`}
               key={item.id}>
               <CardBody className="space-y-3">
                 <Image
                   src={item.screenshot}
-                  className="object-cover"
+                  className="h-72 border object-cover sm:w-[330px] md:w-[420px]"
                 />
                 <div className="">
                   <div className="text-xl font-bold">{item.name}</div>
                   <div className="">{item.description}</div>
+
                   <Link
                     href={item.respository_link}
                     className="flex gap-2 text-blue-500 hover:underline">
